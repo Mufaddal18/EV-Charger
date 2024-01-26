@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "openevse_lcd-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/openevse_lcd-eagle-import.kicad_sym")(options "")(descr ""))
+)

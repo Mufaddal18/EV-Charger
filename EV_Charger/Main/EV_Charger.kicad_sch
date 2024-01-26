@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 65e4f495-1587-47cc-89e7-5f7f29c51acd)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 37.084) (size 50.038 27.686) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1ca0b73e-8b87-4889-98c7-9507f8eedb07)
+    (property "Sheetname" "Protection" (at 25.4 36.3724 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Protection.kicad_sch" (at 25.4 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EV_Charger"
+        (path "/65e4f495-1587-47cc-89e7-5f7f29c51acd" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 96.52 37.338) (size 68.326 88.646) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 85c1dc23-d924-40e7-9657-7f617e4f58f6)
+    (property "Sheetname" "Main_Board" (at 96.52 36.2614 0)
+      (effects (font (size 2 2) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "Main_Board.kicad_sch" (at 96.52 126.5686 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EV_Charger"
+        (path "/65e4f495-1587-47cc-89e7-5f7f29c51acd" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 194.31 37.084) (size 50.038 27.686) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c7f5ad68-baf5-4da2-a4a9-58919ab7e2da)
+    (property "Sheetname" "ESP_WiFi" (at 194.31 36.0074 0)
+      (effects (font (size 2 2) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "ESP.kicad_sch" (at 194.31 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EV_Charger"
+        (path "/65e4f495-1587-47cc-89e7-5f7f29c51acd" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 194.31 98.298) (size 50.038 27.686) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d4201b02-3c77-40d9-87d7-e4a8cb81e256)
+    (property "Sheetname" "Display" (at 194.31 97.2214 0)
+      (effects (font (size 2 2) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "LCD.kicad_sch" (at 194.31 126.5686 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "EV_Charger"
+        (path "/65e4f495-1587-47cc-89e7-5f7f29c51acd" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,16 @@
+(footprint "General" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 514aa48c-adc0-46f0-978f-9793e8c3c4bb)
+  )
+  (fp_text value "General" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3280b39f-64fc-4e96-b07b-0914a0d031e0)
+  )
+  (fp_rect (start -3.8 -1.2) (end 3.8 1.2)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 39b565ec-ba89-4635-92aa-f3a6ffe1fb8b))
+  (pad "1" thru_hole circle (at -2.54 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e0052a95-82b4-4bcf-996e-79042cf82377))
+  (pad "2" thru_hole circle (at 2.54 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 86cf3036-7a47-4a07-9394-583323735114))
+)
